@@ -1,0 +1,128 @@
+/* Mobile device screen */
+@media (max-width: 480px) {
+
+    /* Header */
+    header {
+        background-image: url(./img/uvod_fotka_1.jpg);
+        height: 580px;
+        background-position-x: -35px;
+        background-position-y: 20px;
+    }    
+
+    header .onasbtn {
+        margin-top: 350px;
+    }
+
+    nav {    
+        height: 100px;
+        justify-content: space-around;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgba(30, 30, 30, .98);
+        width: 100%;
+        text-align: center;
+        transition: .3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    .onas {
+        display: block;
+    }
+
+    /* Section Služby */
+    .sluzby {
+        margin-top: 100px;
+    }
+
+    .sluzby-pictures {
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    /* Section O nás */
+    .onas {
+        margin-bottom: 50px;
+    }
+
+    .onas-left {
+        text-align: center;
+        padding: 10px 7px 20px 7px;
+    }
+
+    .onas-right img {
+        height: 300px;
+        width: 100%;
+    }
+
+    /* Image slider */
+    .carousel {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .carousel-button.prev {
+        left: 1rem;
+    }
+    
+    .carousel-button.next {
+        right: 3.3rem;
+    }
+    
+    /* Google map */
+    .find-us {
+        display: block;
+    }
+
+    /* Footer */
+    footer .container {
+        display: block;
+        text-align: center;
+    }
+
+    /* Secondary page */
+    .secondary-page .cennik {
+        margin: 15px 0;
+        text-align: center;
+    }
+}
+
+/* Tablet screen */
+
+
+
+
+/* Section for Tablet view */
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: calc(100% / 2);
+    }
+}
+
+
+
+/* Section for Mobile view */
+@media screen and (max-width: 500px) {
+    .carousel img {
+        width: 100%;
+    }
+}

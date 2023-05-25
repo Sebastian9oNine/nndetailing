@@ -1,0 +1,413 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display&display=swap');
+*/
+
+:root {
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: var(--black);
+    font-family: "Segoe UI";
+    position: relative;
+} 
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    height: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+/* Header */
+
+#logo {
+    height: 30px;
+}
+
+header {
+    background-image: url(./img/uvod_fotka_pc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 720px;
+}
+
+.onasbtn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    text-align: center;
+    width: 120px;
+    padding: 10px 0;
+    margin: 0 auto;
+    margin-top: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.onasbtn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100px ;
+    background-color: rgba(0, 0, 0, .8);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav p {
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+nav ul a:hover {
+    border-bottom: 2px solid white ;
+}
+
+nav .hamburger {
+    display: none;
+}
+
+
+/* Section Služby */
+
+.sluzby {
+    margin: 70px 0;
+}
+
+.sluzby h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.sluzby p {
+    font-size: 16px;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+
+.sluzby-pictures {
+    padding: 20px 0;
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 15px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Detailing interieru */
+.img1 {
+    background-image: url(./img/cistenie_interieru_2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Balík prípravana na predaj */
+.img2 {
+    background-image: url(./img/priprava_3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Leštenie vozidla */
+.img3 {
+    background-image: url(./img/lestenie_3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Ochrana laku */
+.img4 {
+    background-image: url(./img/keramicka_ochrana_2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Ochranné fólie */
+.img5 {
+    background-image: url(./img/auto_folia_9.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Wrap fólie */
+.img6 {
+    background-image: url(./img/uvod_fotka_1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Okenné fólie */
+.img7 {
+    background-image: url(./img/uvod_fotka_1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Renovácia kože */
+.img8 {
+    background-image: url(./img/renovacia_koze_4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Ďalšie služby Project - Tuning */
+.img9 {
+    background-image: url(./img/tuning_2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Zakladná údržba */
+.img10 {
+    background-image: url(./img/umyvanie_1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.sluzby-picture-box {
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    width: 310px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.sluzby-picture-box a {
+    background-color: rgba(0, 0, 0, 0.282);
+    font-size: 25px;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+.sluzby-picture-box:hover {
+    transform: scale(.98);
+}
+
+.sluzby-des {
+    padding: 10px 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+/* Section O nás */
+
+.onas {
+    background-color: rgba(60, 60, 60, 0.4);
+    border-radius: 20px;
+}
+
+.onas-left {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.onas-left h1 {
+    font-size: 60px;
+}
+
+.onas-left p {
+    font-size: 18px;
+    line-height: 1.7rem;
+}
+
+
+/* Section Naša práca */
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.wrapper i {
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper i:first-child {
+    left: -15px;
+    display: none;
+}
+
+.wrapper i:last-child {
+    right: -15px;
+}
+
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img {
+    height: 340px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: calc(100% / 3);
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
+
+
+/* Google maps */
+
+.find-us {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+}
+
+.find-us-right {
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgba(0,0,0,0.4);
+}
+
+footer .container {
+    padding: 25px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .container h2, p {
+    padding: 5px 0;
+}
+
+footer>p {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+/* Section Secondary page*/
+.secondary-page {
+    margin: 50px 0;
+    padding: 20px 0;
+}
+
+.secondary-page li {
+    opacity: .9;
+}
+
+.secondary-page h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.secondary-page h2 {
+    font-size: 35px;
+}
+
+.secondary-page h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.secondary-page h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.secondary-page li, p {
+    line-height: 1.7rem;
+}
+
+.secondary-page i {
+    line-height: 1.7rem;
+}
+
+.secondary-page .head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secondary-page .head p {
+    opacity: .9;
+}
+
+.secondary-page .cennik {
+    margin: 15px 0;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5f368fb0a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="mobilestyle.css" type="text/css">
+    <script src="app.js" defer></script>
+    <title>NNDetailing</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html"><img src="./img/nn_logo.png" height="100px" width="100px"></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html#sluzby" class="nav-link">Služby</a></li>
+                <li class="nav-item"><a href="index.html#nasapraca" class="nav-link">Naša práca</a></li>
+                <li class="nav-item"><a href="index.html#onas" class="nav-link">O nás</a></li>
+                <li class="nav-item"><a href="index.html#kontakt" class="nav-link">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <i id="menu" class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+            </div>
+        </nav>    
+        <a href="#onas" class="onasbtn">O nás  <i class="fa-solid fa-arrow-down fa-sm" style="color: #ffffff;"></i></a>
+    </header> 
+
+    <!-- Section Naše služby-->
+    
+    <div class="container">
+        <section id="sluzby" class="sluzby">
+            <h1>Naše služby</h1>
+            <p>
+            Radi sa postaráme o Vaše vozidlo a doprajeme mu špičkovú starostlivosť. Pre Nezáväznú cenovú pnuku nás kontaktujte. Tešíme sa na Vás. 
+            </p>
+        </section>
+    </div>
+
+    <!-- Section Služby picure-box -->
+    <div class="container">
+        <section class="sluzby-pictures">
+            <div class="img1 sluzby-picture-box">
+                <a href="./detailing_interieru.html">Detailing interieru</a>
+            </div>
+            <div class="img2 sluzby-picture-box">
+                <a href="./balik_priprava.html">Balík Príprava<br> na predaj</a>
+            </div>
+            <div class="img3 sluzby-picture-box">
+                <a href="./lestenie_vozidla.html">Leštenie vozidla</a>
+            </div>
+            <div class="img4 sluzby-picture-box">
+                <a href="./ochrana_laku.html">Ochrana laku</a>
+            </div>
+            <div class="img5 sluzby-picture-box">
+                <a href="./ochranna_folia.html">Ochranné fólie <br>Clif-Design</a>
+            </div>
+            <div class="img6 sluzby-picture-box">
+                <a href="./wrap_folia.html">Wrap fólie</a>
+            </div>
+            <div class="img7 sluzby-picture-box">
+                <a href="./okenna_folia.html">Okenné fólie</a>
+            </div>
+            <div class="img8 sluzby-picture-box">
+                <a href="./renovacia_koze.html">Renovácia kože</a>
+            </div>
+            <div class="img9 sluzby-picture-box">
+                <a href="./dalsie_sluzby.html">Ďaľšie služby <br>Project - Tuning </a>
+            </div>
+            <div class="img10 sluzby-picture-box">
+                <a href="./zakladna_udrzba.html">Zakladná údržba</a>
+            </div>
+        </section>
+        <h4 class="sluzby-des"><i>Cena je bez DPH <br> Cena je orientačná</i></h4>
+    </div>
+    
+    <!-- Section O nas -->
+    <div class="container">
+        <section class="onas" id="onas">
+            <div class="onas-left">
+                <h1>O nás</h1>
+                <p>
+                Historia vzniku NN detailing sa začína v roku 2016, kedy sme sa rozhodli náš vzhľad pre detail preniesť aj do sveta automobilov. Všetko sa začínalo v malom garáži v Trsticiach. Na začiatkoch sme sa venovali Umývaniu, tepovaniu a lešteniu áut. Postupom času sme absolvovali niekoľko školení po celej EU. V roku 2019 sme sa presťahovali do vačších priestorov, ktoré sme následne prerobili na Showroom, kde nás aj aktuálne nájdete. Vďaka dlhoročnej praxi, skúsenostiam a vášni pre detail neustále zlepšujeme naše služby. Dnes Vám vieme ponúknuť špičkovú kvalitu a individuálny pristup.  
+                </p>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Naša práca -->
+    <section class="slider">
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left fa-lg" style="color: #121212;"></i>
+            <div class="carousel">
+                <img src="./img/index_1.jpg" draggable="false">
+                <img src="./img/index_9.jpg" draggable="false">
+                <img src="./img/index_3.jpg" draggable="false">
+            </div>
+            <i id="right" class="fa-solid fa-angle-right fa-lg" style="color: #121212;"></i>
+        </div>
+    </section>
+
+    <!-- Google Maps -->
+    <div class="container">
+        <section class="find-us">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5038.466819582826!2d17.813998289067634!3d48.01303992368911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476b75b632f30a3d%3A0x88702919074c6152!2sNN%20detailing!5e0!3m2!1shu!2ssk!4v1680107330800!5m2!1shu!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            <div class="find-us-right">
+                <h1>Kontaktujte nás v záujme o nezáväznú cenovú ponuku</h1>
+            <p>ALEBO NÁM ZAVOLAJTE NA </p>
+            <p><strong>0944 264 904</strong></p>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div id="kontakt" class="kontakt">
+                <h2>Kontakt</h2>
+                <p><i class="fa-solid fa-phone fa-sm" style="color: #ffffff;"></i> 0944 264 904</p>
+                <p><i class="fa-regular fa-envelope fa-lg" style="color: #ffffff;"></i> Car.detailingnn@gmail.com</p>
+            </div>
+            <div class="adresa">
+                <h2>Adresa</h2>
+                <p>Trstice 92542</p>
+            </div>
+            <div class="social">
+                <h2>Social</h2>
+                <p><a href="https://www.instagram.com/car.detailingnn/" target="_blank"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i> car.detailingnn</a></p>
+                <p><a href="https://www.facebook.com/search/top?q=cardetailing%20nn" target="_blank"><i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i> CarDetailing NN</a></p>
+            </div>
+        </div>
+        <p>Copyright&copy; 2023 NNDetailing. Všetky práva vyhradené</p>
+    </footer>
+</body>
+</html>
