@@ -92,6 +92,11 @@
         display: block;
     }
 
+    /* Section Formulár */
+    .form input, .form textarea {
+        width: 90%;
+    }
+    
     /* Footer */
     footer .container {
         display: block;
