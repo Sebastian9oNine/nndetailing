@@ -240,6 +240,7 @@ nav .hamburger {
 /* Section O nás */
 
 .onas {
+    margin: 20px 0;
     background-color: rgba(60, 60, 60, 0.4);
     border-radius: 20px;
 }
@@ -328,7 +329,6 @@ nav .hamburger {
 .carousel img:first-child {
     margin-left: 0px;
 }
-
 
 
 /* Google maps */
