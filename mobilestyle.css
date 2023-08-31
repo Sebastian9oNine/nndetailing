@@ -55,8 +55,7 @@
         margin: 10px 0;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 3px;
+        gap: 15px;
     }
 
     /* Section O nás */
