@@ -1,4 +1,27 @@
 
+// Script for mail sending 
+function sendMail() {
+    var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+    }
+
+    const serviceID = "service_jkgsx2l"
+    const templateID = "template_9c7aeub"
+
+    emailjs.send(serviceID, templateID, params).then(
+        res => {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+            console.log(res);
+            alert("Poslali ste správu!");
+        }
+    ).catch((err) => console.log(err))
+}
+
+
 // Hamburger menu for mobile device
 const hamburger = document.querySelector(".hamburger")
 const navMenu = document.querySelector(".nav-menu")
