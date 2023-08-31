@@ -96,6 +96,10 @@
     .form input, .form textarea {
         width: 90%;
     }
+
+    .form button {
+        width: 100px;
+    }
     
     /* Footer */
     footer .container {
