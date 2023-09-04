@@ -48,7 +48,7 @@
 
     /* Section Služby */
     .sluzby {
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .sluzby-pictures {
@@ -161,6 +161,17 @@
 
     .onas {
         display: block;
+    }
+
+    .sluzby-pictures {
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    }
+
+    .sluzby-pictures {
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
     }
     
     .carousel img {
