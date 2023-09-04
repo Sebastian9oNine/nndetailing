@@ -73,10 +73,6 @@
     }
 
     /* Image slider */
-    .carousel {
-        width: 90vw;
-        height: 60vh;
-    }
 
     .carousel img {
         width: 100%;
