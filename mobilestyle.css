@@ -119,8 +119,6 @@
     /* Header */
     header {
         background-image: url(./img/uvod_fotka_1.jpg);
-        width: 100vw;
-        height: 100vh;
         background-position-x: -35px;
     }    
 
