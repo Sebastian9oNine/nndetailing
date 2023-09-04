@@ -1,0 +1,183 @@
+/* Mobile device screen */
+@media (max-width: 480px) {
+
+    /* Header */
+    header {
+        background-image: url(./img/uvod_fotka_1.jpg);
+        height: 580px;
+        background-position-x: -35px;
+    }    
+
+    header .onasbtn {
+        margin-top: 350px;
+    }
+
+    nav {    
+        height: 100px;
+        justify-content: space-around;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgba(30, 30, 30, .98);
+        width: 100%;
+        text-align: center;
+        transition: .3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    .onas {
+        display: block;
+    }
+
+    /* Section Služby */
+    .sluzby {
+        margin-top: 50px;
+    }
+
+    .sluzby-pictures {
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    /* Section O nás */
+    .onas {
+        margin-bottom: 50px;
+    }
+
+    .onas-left {
+        text-align: center;
+        padding: 10px 7px 20px 7px;
+    }
+
+    .onas-right img {
+        height: 300px;
+        width: 100%;
+    }
+
+    /* Image slider */
+    .carousel {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .carousel img {
+        width: 100%;
+    }
+
+    .carousel-button.prev {
+        left: 1rem;
+    }
+    
+    .carousel-button.next {
+        right: 3.3rem;
+    }
+    
+    /* Google map */
+    .find-us {
+        display: block;
+    }
+
+    .form button {
+        width: 100px;
+    }
+
+    /* Footer */
+    footer .container {
+        display: block;
+        text-align: center;
+    }
+
+    /* Secondary page */
+    .secondary-page .cennik {
+        margin: 15px 0;
+        text-align: center;
+    }
+}
+
+
+
+/* Section for Tablet view */
+@media screen and (max-width: 900px) {
+    /* Header */
+    header {
+        background-image: url(./img/uvod_fotka_1.jpg);
+    }    
+
+    header .onasbtn {
+        margin-top: 350px;
+    }
+
+    nav {    
+        height: 100px;
+        justify-content: space-around;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgba(30, 30, 30, .98);
+        width: 100%;
+        text-align: center;
+        transition: .3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    .onas {
+        display: block;
+    }
+
+    .sluzby-pictures {
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    }
+
+    .carousel img {
+        width: calc(100% / 1);
+    }
+
+    /* Google map */
+    .find-us {
+        display: block;
+    }
+
+    .form button {
+        width: 100px;
+    }
+}
+
+

@@ -360,7 +360,7 @@ nav .hamburger {
     font-size: 18px;
     padding: 12px 8px;
     border-radius: 20px;
-    width: 500px;
+    min-width: 30%;
     outline: none;
 }
 
@@ -376,7 +376,6 @@ nav .hamburger {
 .form button:hover {
     box-shadow: 0 0 30px white;
 }
-
 
 /* Footer */
 
