@@ -114,13 +114,55 @@
     }
 }
 
-/* Tablet screen */
-
-
-
 
 /* Section for Tablet view */
 @media screen and (max-width: 900px) {
+    /* Header */
+    header {
+        background-image: url(./img/uvod_fotka_1.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-position-x: -35px;
+        background-position-y: 20px;
+    }    
+
+    header .onasbtn {
+        margin-top: 350px;
+    }
+
+    nav {    
+        height: 100px;
+        justify-content: space-around;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgba(30, 30, 30, .98);
+        width: 100%;
+        text-align: center;
+        transition: .3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    .onas {
+        display: block;
+    }
+    
     .carousel img {
         width: calc(100% / 2);
     }
@@ -128,9 +170,3 @@
 
 
 
-/* Section for Mobile view */
-@media screen and (max-width: 500px) {
-    .carousel img {
-        width: 100%;
-    }
-}
