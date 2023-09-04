@@ -230,10 +230,10 @@ nav .hamburger {
 }
 
 .sluzby-des {
+    margin: 20px 0;
     padding: 10px 0;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    margin-bottom: 15px;
     text-align: center;
 }
 
